@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Fredoka:wght@300..700&family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: deepskyblue;
+    width: 15vw;
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 35px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.main{
+    /*background-color: aquamarine;*/
+    width: 85vw;
+
+}
+.container{
+    display: flex;
+}
+.infoContainter{
+    /*background-color:rgb(23, 64, 79);*/
+    height: 68vh;
+    width: 71vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.DevPic img{
+    height: 62vh;
+}
+.Devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Fredoka", sans-serif;
+
+}
+.hello{ 
+    font-weight: 300;
+    font-size: 5em;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Anta", sans-serif;
+    
+}
+.about{
+    font-size: 30px;
+}
+.Moreabout{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.buttons
+{
+    margin-top: 30px;
+}
+.buttons button{
+
+    padding: 14px;
+    /*margin-top: 25px;*/
+    border-radius: 30px;
+    color: white;
+    background-color: deepskyblue;
+    font-weight: bold;
+    margin: 0 4px;
+    font-size: medium;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: deepskyblue;
+    background-color: whitesmoke;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;    
+}
+
+.hamburger{
+
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left: 8px;
+
+}
+.cross{
+    margin-left: 215px;
+
+}
+.sidebarGo{
+    transform: translate(-410px, 0px);
+    position: absolute;
+}
+@media (max-width: 1305px) {
+/*
+  .sidebar{
+    transform: translate(-210px, 0px);
+    position: absolute;
+  }*/
+  .DevPic{
+    display: none;
+  }
+}
+
+
+
+

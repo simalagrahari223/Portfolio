@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="./contact.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/test.html">Home</a></li>
+                    <li><a href="/intro.html">About Me</a></li>
+                    <li><a href="https://github.com/simalagrahari223?tab=repositories">Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+           <div class="hamburger">
+                <img class="ham" src="./logo/ham.png" alt="" width="35" height="32">
+                <img class="cross" src="./logo/cross.jpg" alt="" width="26">
+            </div>
+
+            <div class="contactForm">
+                <h1>Contact Me</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="Name" class="form-label">Name:</label>
+                      <input type="name" placeholder="enter your name" class="form-control" id="userEmail" aria-describedby="emailHelp">
+                    </div>
+                    
+                    <div class="mb-4">
+                      <label for="userEmail" class="form-label">Email address:</label>
+                      <input type="email" placeholder="enter your email address" class="form-control" id="userEmail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                    </div>
+
+                    <div class="mb-5">
+                      <label for="usermessage" class="form-label">Write Your Message:</label>
+                      <input type="message" placeholder="enter your message" class="form-control" id="usermessage">
+                    </div>
+                    <!--<div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                -->
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="./test.js"></script>
+
+</body>
+ 

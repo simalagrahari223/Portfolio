@@ -1,0 +1,79 @@
+.intro h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 12px;
+    font-size: 50px;
+}
+.intro p{
+    
+    font-family: "Playfair Display", serif;
+    margin: 12px;
+    font-size: 31px;
+}
+.intro{
+    padding: 72px 120px;  
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: deepskyblue;
+    border: 2px solid black;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.t100{
+    width:265px;
+    background-color: gold;
+    height: 15px;
+}
+
+.t95{
+    width: 251px;
+    height: 15px;
+    background-color: orangered;
+}
+
+.t90{
+    height: 15px;
+    width: 238px;
+    background-color: yellow;
+}
+
+.t85{
+    width: 212px;
+    height: 15px;
+    background-color: grey;
+}
+
+.t60{
+    width: 160px;
+    background-color: aqua;
+    height: 15px;
+}
+.t50{
+    width: 125px;
+    background-color: blue;
+    height: 15px;
+}
+ .t45{
+    width: 120px;
+    background-color: red;
+    height: 15px;
+ }
+
+.t25{
+    width: 75px;
+    background-color: black;
+    height: 15px;
+}
